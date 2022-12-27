@@ -1,0 +1,25 @@
+.save-profile-button{
+    background-color: #e0f6fa;
+    color: #e0f7fa;
+    font-size: 0;
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0;
+    padding: 1rem;
+    border-radius: 50%;
+    margin: 1rem 1rem 0 0;
+    z-index: 99999;
+  }
+  
+.save-profile-button.highlight {
+    background-color: #184bcc;
+    color: #183ccc;
+  }
+
+.add-keywords-to-save {
+    width: 30%;
+    border: 2px solid #0A66C2;
+    border-radius: 1.6rem;
+    padding-left : 10px;
+    padding-right: 10px;
+  }

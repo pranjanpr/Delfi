@@ -1,0 +1,37 @@
+{
+    "manifest_version": 3,
+    "name": "Delfi",
+    "description": "Save Linkedin Profiles with Short Notes!",
+    "version": "1.0",
+    "action": {
+        "default_icon": "images/delfi-logo.png",
+        "default_popup": "popup/popup.html"
+    },
+    "icons": {
+        "16": "images/delfi-logo.png",
+        "32": "images/delfi-logo.png",
+        "48": "images/delfi-logo.png",
+        "128": "images/delfi-logo.png"
+      },
+
+      "host_permissions": [
+        "https://developer.chrome.com/*",
+        "http://*/*",
+        "https://*/*",
+        "https://www.linkedin.com/*"
+      ],
+      "permissions": [
+        "storage",
+        "tabs",
+        "scripting"
+      ],
+      "background": {
+        "service_worker": "background.js"
+    },
+    "web_accessible_resources": [
+        {
+            "matches": ["<all_urls>"],
+            "resources": ["images/delfi-logo.png"]
+        }
+    ]
+  }

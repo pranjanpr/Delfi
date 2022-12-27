@@ -1,0 +1,52 @@
+body {
+    width: 20rem;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin: 1rem 0;
+  }
+  
+  li {
+    padding: 0.25rem;
+    display: flex;
+    border-radius: 6px;
+    padding-left : 8px;
+    padding-right: 8px;
+  }
+  li:nth-child(odd) {
+    background: #fcf235ac;
+  }
+  li:nth-child(even) {
+    background: #ffffff;
+  }
+
+  .pratyush-listClass.removedProfileNode {
+    background: #ca1818;
+  }
+
+  .removeProfile{
+    border-radius: 12px;
+    background-color: #ed8d07;
+    border-width : 0;
+    color : white;
+    position: absolute;
+    right: 1rem;
+  }
+
+  .removeProfile:hover {
+    background-color:#ff4d00;
+    transition: 0.3s;
+}
+  li:hover{
+    background: #d7cd01ac;
+  }
+  .set-link-here {
+    text-decoration: none;
+  }
+  h3,
+  p {
+    margin: 0;
+  }
